@@ -1,58 +1,58 @@
 <main>
-  
-
   <div class="content">
-    <div class="nameAndLinks">
-      <h1>Pranav Thota</h1>
-      <p>Programming Student | CS Sophmore</p>
-    </div>
-    <div class="grid-container">
-      <a
-        href="https://github.com/awsame303"
-        target="_blank"
-        rel="noopener"
-        title="Github"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentcolor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+    <div class="wrapper">
+      <div class="nameAndLinks">
+        <h1>Pranav Thota</h1>
+        <p>Programming Student | 7th Grader</p>
+      </div>
+      <div class="grid-container">
+        <a
+          href="https://github.com/awsame303"
+          target="_blank"
+          rel="noopener"
+          title="Github"
         >
-          <path
-            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"
-          />
-        </svg>
-      </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentcolor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37.0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44.0 0020 4.77 5.07 5.07.0 0019.91 1S18.73.65 16 2.48a13.38 13.38.0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07.0 005 4.77 5.44 5.44.0 003.5 8.55c0 5.42 3.3 6.61 6.44 7A3.37 3.37.0 009 18.13V22"
+            />
+          </svg>
+        </a>
 
-      <a
-        href="mailto:tpranav2009@gmail.com"
-        target="_blank"
-        rel="noopener"
-        title="Email"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentcolor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+        <a
+          href="mailto:tpranav2009@gmail.com"
+          target="_blank"
+          rel="noopener"
+          title="Email"
         >
-          <path
-            d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-          />
-          <polyline points="22,6 12,13 2,6" />
-        </svg>
-      </a>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentcolor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path
+              d="M4 4h16c1.1.0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1.0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+            />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+        </a>
+      </div>
     </div>
 
     <footer class="footer">
@@ -102,7 +102,6 @@
   main {
     text-align: center;
     width: 100%;
-    height: 100%;
     margin: 0;
     background-color: rgb(35, 36, 37);
     color: rgb(169, 169, 179);
@@ -115,14 +114,12 @@
     font-size: 1rem;
     letter-spacing: 0.06em;
   }
-
   .nameAndLinks {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-
   @media (min-width: 640px) {
     main {
       max-width: none;
@@ -136,34 +133,28 @@
     justify-content: center;
     margin: 0px;
   }
-
   h1 {
     font-size: 2.625rem;
     margin-top: 150px;
   }
-
   p {
     box-sizing: inherit;
   }
-
   a {
     color: inherit;
     background-color: transparent;
     margin: 4px;
   }
-
   .grid-container {
-    width: 186.45px;
-    height: 29.5167px;
     margin-bottom: 130px;
   }
-
   .footer {
     padding: 40px 20px;
     flex-grow: 0;
     color: rgb(153, 153, 153);
+    position: absolute;
+    bottom: 0;
   }
-
   .footer__inner {
     display: flex;
     align-items: center;
@@ -172,7 +163,6 @@
     width: 760px;
     max-width: 100%;
   }
-
   .footer__content {
     display: flex;
     flex-direction: row;
@@ -180,75 +170,4 @@
     font-size: 1rem;
     color: rgb(153, 153, 153);
   }
-
-  .header {
-    background: rgb(27, 28, 29) none repeat scroll 0% 0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    padding: 20px;
-  }
-
-  .header__inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0px auto;
-    width: 760px;
-    max-width: 100%;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: monospace, monospace;
-  }
-
-  .logo__text {
-    font-size: 1.125rem;
-  }
-
-  .logo__cursor {
-    display: inline-block;
-    width: 10px;
-    height: 1rem;
-    background: rgb(254, 81, 134) none repeat scroll 0% 0%;
-    background-color: rgb(254, 81, 134);
-    margin-left: 5px;
-    border-radius: 1px;
-    animation: 1s ease 0s infinite normal none running cursor;
-  }
-
-  .header__right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .menu {
-    background: rgb(27, 28, 29) none repeat scroll 0% 0%;
-  }
-
-  .menu-trigger {
-    width: 24px;
-    height: 24px;
-    fill: currentcolor;
-    margin-left: 10px;
-    cursor: pointer;
-    display: none;
-  }
-
-  .menu__inner {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    max-width: 100%;
-    margin: 0px auto;
-    padding: 0px 15px;
-    font-size: 1rem;
-    list-style: outside none none;
-}
 </style>
