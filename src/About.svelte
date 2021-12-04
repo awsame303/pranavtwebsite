@@ -8,7 +8,7 @@
           </div>
           <article>
             <h2 class="post-title">
-              <a href="https://irenekurien.github.io/about/">About Me</a>
+              <a href="https://pranavt.netlify.app/about">About Me</a>
             </h2>
             <div class="post-content">
               <p>Hi there,</p>
@@ -31,7 +31,7 @@
           <div class="footer__content">
             <span>© 2021</span>
             <span
-              ><a href="https://irenekurien.github.io/">Pranav Thota</a
+              ><a href="https://pranavt.netlify.app/about">Pranav Thota</a
               ></span
             >
             <span
@@ -43,7 +43,7 @@
             >
             <span
               ><a
-                href="https://irenekurien.github.io/posts/index.xml"
+                href="https://pranavt.netlify.app/posts/index.xml"
                 target="_blank"
                 title="rss"
                 ><svg
